@@ -1,0 +1,1 @@
+powershell.exe -version 2 -executionpolicy bypass -File %~dp0gdrive_backup_and_sync.ps1 %*
