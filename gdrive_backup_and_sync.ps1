@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $PSScriptRoot = Split-Path $MyInvocation.MyCommand.Path -Parent
 [Threading.Thread]::CurrentThread.CurrentUICulture = 'en-US';
 [void][System.Reflection.Assembly]::LoadWithPartialName('System.Web.Extensions')
@@ -2073,5 +2072,4 @@ if ($args[0] -eq "full") { PerformFullBackup }
 elseif ($args[0] -eq "diff") { PerformDiffirentialBackup }
 elseif ($args[0] -eq "sync" -And $args[1] -And $args[2]) {
 sync-local-folder-to-remote-folder $args[1] $args[2]
->>>>>>> 9857aa08d775f9e0900f8cba3f3480640bb634a0
 } 
