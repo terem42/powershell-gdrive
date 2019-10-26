@@ -7,8 +7,8 @@ For additional resiliency against network failures and the script supports resum
 Exponentiall backoff stragety is used in case of network failure, so the script can work unattended.
 The script prunes old backups with predefined time interval, hardcoded in the script within variable $Days_to_Keep_Backup. Currently it is set to 30. You may set it no any other value of your choice.
 
-#Usage
-To run script, clone the repo, then download standalone command line version of 7zip utility, located here https://www.7-zip.org/download.html 
+# Usage
+To run script, clone the repo, then download standalone command line version of 7zip utility, located here https://www.7-zip.org/download.html and place it into the script folder
 
 Next, register the script as an application of your choice under https://console.developers.google.com Use http://localhost:8080/gdriveauthcallback for app callback.
 It is nesessary for getting refresh token first time app starts, users will be asked to explicitly give/deny permission for the script to acess drive files.
